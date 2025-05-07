@@ -18,7 +18,7 @@ node {
 
     stage('Terraform Apply') {
         dir('Day-01-DIR') {
-            sh 'terraform apply -auto-approve'
+            sh 'terraform destroy -auto-approve'
         }
     }
 }
