@@ -8,6 +8,6 @@ resource "aws_instance" "dev" {
   availability_zone = "us-east-1a"
   
   tags = {
-    Name = "Jenkins Trigger Dev"
+    Name = "Jenkins Trigger Dev Pull SCM"
   }
 }
